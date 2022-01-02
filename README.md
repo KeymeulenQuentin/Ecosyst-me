@@ -12,7 +12,7 @@ Explication des principes SOLID utilisés:
   1) S : Single Responsibility Principle (SRP)
   
     Ce principe consiste à attribuer une seule et unique responsabilité à chaque classe. 
-    En effet, dans notre projet, nous avons veillé à ce que chaque classe s'occupe d'une           entité différente afin d'éviter que le code ne soit embrouillant. Notamment, la classe Carnivore gère uniquement les fonctions de cet espèce telles que sa reproduction, son       déplacement, la gestion de son énergie et sa sant, etc.
+    En effet, dans notre projet, nous avons veillé à ce que chaque classe s'occupe d'une entité différente afin d'éviter que le code ne soit embrouillant. Notamment, la classe Carnivore gère uniquement les fonctions de cet espèce telles que sa reproduction, son déplacement, la gestion de son énergie et sa sant, etc.
     Ainsi, nous nous retrouvons avec un code beaucoup plus clair que si l'on avait mis les classes de toutes les entités dans un même fichier(ledit fichier serait très lourd avec un code énorme). 
     De plus, chaque fichier possède un rôle intrinsèque.
     Enfin, le code est facile de maintenance.
