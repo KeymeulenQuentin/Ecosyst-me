@@ -20,6 +20,7 @@ Enfin, le code est facile de maintenance.
   2) L : Liskov Substitution Principle (LSP)
   
 Ce principe est respecté, lorsque nous avons une classe mère reliée à une classe enfant (autrement dit une relations d’héritage) et que nous pouvons remplacer l’instance de la classe mère par une instance de la classe enfant, sans impacter le comportement de l’instance de classe mère. 
-    
-En effet, nous avons bien respecté ce principe du fait que nous avons créé une classe mère Animal ayant des méthodes telles que Nivenergy() et Movement() et deux classes enfants qui héritent de ces méthodes. 
+
+En effet, nous avons bien respecté ce principe du fait que nous avons créé une classe mère Animal ayant des méthodes telles que Nivenergy() et Movement() et deux classes enfants qui héritent de ces méthodes. Nous pouvons modifier les objets de la classe enfant sans pour autant affecter ceux de la classe mère.
+
     
