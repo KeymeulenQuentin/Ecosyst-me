@@ -23,4 +23,7 @@ Ce principe est respecté, lorsque nous avons une classe mère reliée à une cl
 
 En effet, nous avons bien respecté ce principe du fait que nous avons créé une classe mère Animal ayant des méthodes telles que Nivenergy() et Movement() et deux classes enfants qui héritent de ces méthodes. Nous pouvons modifier les objets de la classe enfant sans pour autant affecter ceux de la classe mère.
 
-    
+   3) D : Dependency Inversion Principle (DIP)
+Ce  principe consiste à ce que la classe de haut niveau ne dépende pas de la classe de bas niveau. De plus, ces deux classes doivent dépendre des abstractions. Les abstractions étant des classes dont on ne peut pas créer des instances contrairement aux classes concrètes.
+Effectivement, dans notre code nous avons eu recours à une classe de haut niveau Animal, par exemple, qui ne dépend point de la classe de bas niveau Carnivore. Or, ces deux classes (haut et bas niveau) dépendent d'une classe abstraite Specie dont on ne crée pas d'objet.
+
